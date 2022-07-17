@@ -1,6 +1,12 @@
 # Tesla_Stock_Sentiment_Analysis
-Created a stock sentiment predictor based on the tweets on Tesla, and compared it to the Yahoo Finance data.
 
+* Created a stock sentiment predictor based on the tweets on Tesla, and compared it to the Yahoo Finance data.
+
+* Used spark to clean and preprocess the tweets. 
+
+* Textblob to process the sentiment analysis of the tweets
+
+* Used ML models to predict the stock price change (postive or negative form the previous day) based on the avergae sentiment of the tweets during that day.
 
 ## Problem:
 
@@ -11,3 +17,7 @@ Created a stock sentiment predictor based on the tweets on Tesla, and compared i
 * Data from Twitter - Sentiment has 16 features (1.1GB) (Used scrapped data from Tweepy bot from a Kaggle dataset)
 
 * Data form Yahoo  - Previous stock price has 7 features (50 KB)
+
+
+## Data Description:
+
