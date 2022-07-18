@@ -6,7 +6,9 @@
 
 * Textblob to process the sentiment analysis of the tweets
 
-* Used ML models to predict the stock price change (postive or negative form the previous day) based on the avergae sentiment of the tweets during that day.
+* Used ML models to predict the stock price change (Target variable: Trend - postive or negative based on the previous day).
+
+* Based on the average value of the sentiment of tweets, the calculated value of trend (from sentiment analysis of tweets) is compared to the actual trend.
 
 ## Problem:
 
@@ -21,11 +23,13 @@
 
 ## Data Description:
 
+
 ### Twitter Data
 
 ![image](https://user-images.githubusercontent.com/22790699/179430148-f0a22810-9c2b-4ba2-a12e-da0cd4f6a882.png)
 
 ![image](https://user-images.githubusercontent.com/22790699/179430163-04bdfd9d-12f8-419e-b36d-68a09d62f13d.png)
+
 
 ### Yahoo Finance
 
@@ -33,3 +37,33 @@
 
 ![image](https://user-images.githubusercontent.com/22790699/179430177-0338e4ee-f9ee-473d-84c2-b0de4e2de64a.png)
 
+
+## Data Processing:
+
+
+### Data Cleaning:
+
+![image](https://user-images.githubusercontent.com/22790699/179430225-38f67b6e-e69b-4971-9d6b-c6fbab551c2a.png)
+
+![image](https://user-images.githubusercontent.com/22790699/179430233-b32abd7b-35e9-4748-9845-4d1cb9b1d48a.png)
+
+
+### Sentiment Analysis:
+
+Used Text Blob Natural Language Processing (NLP) library to identify sentiment of the tweets.
+
+![image](https://user-images.githubusercontent.com/22790699/179430262-c8b3364e-9e67-427b-9a17-68cac741dd63.png)
+
+Grouping the sentiment by date:
+
+![image](https://user-images.githubusercontent.com/22790699/179430288-2537550e-ea3c-4c1f-8a65-6d53d462001a.png)
+
+* From the above plot, we can infer that the sentiments are normally distributed. Thus, i have taken the threshold as 0.16 to separate them into positive and negative sentiments.
+
+
+![image](https://user-images.githubusercontent.com/22790699/179430482-d9f0ffae-380f-452d-bc42-532971357afc.png)
+
+
+## Final Model
+
+![image](https://user-images.githubusercontent.com/22790699/179430602-c2a1b36d-46d5-4ef6-9727-e375bd4857c3.png)
