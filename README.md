@@ -21,3 +21,15 @@
 
 ## Data Description:
 
+### Twitter Data
+
+![image](https://user-images.githubusercontent.com/22790699/179430148-f0a22810-9c2b-4ba2-a12e-da0cd4f6a882.png)
+
+![image](https://user-images.githubusercontent.com/22790699/179430163-04bdfd9d-12f8-419e-b36d-68a09d62f13d.png)
+
+### Yahoo Finance
+
+![image](https://user-images.githubusercontent.com/22790699/179430173-7fce373e-7e69-41b4-8ac1-ac35e5fafd6b.png)
+
+![image](https://user-images.githubusercontent.com/22790699/179430177-0338e4ee-f9ee-473d-84c2-b0de4e2de64a.png)
+
