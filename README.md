@@ -67,3 +67,16 @@ Grouping the sentiment by date:
 ## Final Model
 
 ![image](https://user-images.githubusercontent.com/22790699/179430602-c2a1b36d-46d5-4ef6-9727-e375bd4857c3.png)
+
+![image](https://user-images.githubusercontent.com/22790699/179430817-c04d6696-4507-4b9d-a878-5faa02c81563.png)
+
+
+## Results:
+
+### xgBoost
+![image](https://user-images.githubusercontent.com/22790699/179430854-db0f2626-53e2-4f1d-8b42-86c9da31766e.png)
+
+### Random Forest
+![image](https://user-images.githubusercontent.com/22790699/179430877-8fbf5502-48de-45cf-a3a6-406d6bff153d.png)
+
+
