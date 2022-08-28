@@ -1,6 +1,6 @@
 # Tesla_Stock_Sentiment_Analysis
 
-* Created a stock sentiment predictor based on the tweets on Tesla, and compared it to the Yahoo Finance data. Skills used: Spark, Big Data, Sentiment Analysis
+* Created a Big Data stock sentiment predictor based on the tweets on Tesla, and compared it to the Yahoo Finance data. Skills used: Spark, Big Data, Sentiment Analysis
 
 * Used spark to clean and preprocess the tweets. 
 
